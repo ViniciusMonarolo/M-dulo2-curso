@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox">
+    <label class="close-menu-label" title="close menu" for="close-menu"></label>
+    <aside class="menu">
+        <div class="menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#">logo</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#top3.2">Top3.2</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+
+    <section class="main_bg section">
+        <div class="main-content intro-content">
+            <div class="content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla molestias animi eveniet quos sed
+                    maiores
+                    maxime, eos saepe ducimus cum laborum doloribus eius esse soluta similique atque! Pariatur, dolorum
+                    eligendi.</p>
+            </div>
+            <div class="content-img">
+                <img src="assets/img/html_css.svg" alt="texto escrito html e css com um homem do lado">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white_bg section">
+        <div class="main-content">
+            <h2>Title</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage
+                and
+                some surprises at the machine’s performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.
+            </p>
+            <p>
+                We’ll start with some background on the Mac transition and give an overview of Firefox internals
+                that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+            </p>
+            <p>
+                We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big
+                Sur,
+                and discuss various updater problems we had to deal with. We’ll conclude with the release and an
+                overview of various other improvements that are in the pipeline.
+            </p>
+        </div>
+    </section>
+
+    <section id="top3" class="main_bg top3-grid section">
+        <div class="main-content grid-content">
+            <h2 class="grid-spacing-head">TOP 3</h2>
+            <p class="grid-spacing">Aqui vem uma citação</p>
+
+            <div class="grid">
+                <article>
+                    <h3>First</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo ex magnam nemo excepturi.
+                        Repellat
+                        inventore quae molestiae aliquid enim quaerat ut ipsam voluptate. Labore officia fugit adipisci
+                        velit sequi.</p>
+                </article>
+                <article>
+                    <h3>Second</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo ex magnam nemo excepturi.
+                        Repellat
+                        inventore quae molestiae aliquid enim quaerat ut ipsam voluptate. Labore officia fugit adipisci
+                        velit sequi.</p>
+                </article>
+                <article>
+                    <h3>Thrid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo ex magnam nemo excepturi.
+                        Repellat
+                        inventore quae molestiae aliquid enim quaerat ut ipsam voluptate. Labore officia fugit adipisci
+                        velit sequi.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white_bg section ">
+        <div class="main-content grid-content">
+            <h2 class="grid-spacing-head">
+                Gallery
+            </h2>
+            <p class="grid-spacing">Fotos aleatórias</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="top3.2" class="main_bg top3-grid section">
+        <div class="main-content grid-content">
+            <h2 class="grid-spacing-head">TOP 3</h2>
+            <p class="grid-spacing">Aqui vem uma citação</p>
+
+            <div class="grid">
+                <article>
+                    <h3>First</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo ex magnam nemo excepturi.
+                        Repellat
+                        inventore quae molestiae aliquid enim quaerat ut ipsam voluptate. Labore officia fugit adipisci
+                        velit sequi.</p>
+                </article>
+                <article>
+                    <h3>Second</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo ex magnam nemo excepturi.
+                        Repellat
+                        inventore quae molestiae aliquid enim quaerat ut ipsam voluptate. Labore officia fugit adipisci
+                        velit sequi.</p>
+                </article>
+                <article>
+                    <h3>Thrid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo ex magnam nemo excepturi.
+                        Repellat
+                        inventore quae molestiae aliquid enim quaerat ut ipsam voluptate. Labore officia fugit adipisci
+                        velit sequi.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white_bg section">
+        <div class="main-content intro">
+            <h2>Pricing</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage
+                and
+                some surprises at the machine’s performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.
+            </p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Title1</th>
+                            <th>Title2</th>
+                            <th>Title3</th>
+                            <th>Title4</th>
+                            <th>Title5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conteudo1</td>
+                            <td>Conteudo2</td>
+                            <td>Conteudo3</td>
+                            <td>Conteudo4</td>
+                            <td>Conteudo5</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo1</td>
+                            <td>Conteudo2</td>
+                            <td>Conteudo3</td>
+                            <td>Conteudo4</td>
+                            <td>Conteudo5</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo1</td>
+                            <td>Conteudo2</td>
+                            <td>Conteudo3</td>
+                            <td>Conteudo4</td>
+                            <td>Conteudo5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Footer1</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="main_bg section">
+        <div class="intro-content main-content">
+            <div class="content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla molestias animi eveniet quos sed
+                    maiores
+                    maxime, eos saepe ducimus cum laborum doloribus eius esse soluta similique atque! Pariatur, dolorum
+                    eligendi.</p>
+            </div>
+            <div class="content-img">
+                <img src="assets/img/html_css.svg" alt="texto escrito html e css com um homem do lado">
+            </div>
+
+            <div class="formulario">
+                <fieldset class="formulario-grid">
+                    <legend>Formulário de contato</legend>
+
+                    <div class="formulario-elementos">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Primeiro nome">
+                    </div>
+                    <div class="formulario-elementos">
+                        <label for="last-name">First name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Ultimo nome">
+                    </div>
+                    <div class="formulario-elementos">
+                        <label for="email">First name</label>
+                        <input type="email" name="email" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="formulario-elementos">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="formulario-elementos">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white_bg">
+        <p><a target="_blank" href="https://github.com/ctrlplay-jundiai">Feito com <span class="heart">♥</span> por Ctrl
+                + Play</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
