@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .area {
+            font: normal 15pt Arial;
+            background: blue;
+            color: white;
+            width: 100pt;
+            height: 100pt;
+            text-align: center;
+            line-height: 100pt;
+        }
+    </style>
+</head>
+
+<body id="mode">
+    <div id="area" class="area">
+        <strong>
+            Anything...
+        </strong>
+    </div>
+
+    <script>
+        const corpo = document.getElementById("mode");
+        var elemento = document.getElementById("area");
+
+        elemento.addEventListener('click', clicar);
+        elemento.addEventListener('mouseenter', entrar);
+        elemento.addEventListener('mouseout', sair);
+        
+        function clicar() {
+            elemento.innerHTML = 'Clicou!!';
+            elemento.style.background = 'green';
+            corpo.style.background = 'black';
+        }
+
+        function entrar() {
+            elemento.innerHTML = 'Entrou!!';
+        }
+
+        function sair() {
+            elemento.innerText = 'Saiu';
+            elemento.style.background = 'blue';
+            corpo.style.background = 'white';
+        }
+    </script>
+</body>
+
+</html>
